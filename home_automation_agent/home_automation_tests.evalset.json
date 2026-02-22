@@ -1,0 +1,252 @@
+{
+  "eval_set_id": "home_automation_tests",
+  "name": "home_automation_tests",
+  "description": null,
+  "eval_cases": [
+    {
+      "eval_id": "case092317",
+      "conversation": [],
+      "session_input": {
+        "app_name": "home_automation_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1765192729.3277981
+    },
+    {
+      "eval_id": "cased6d06a",
+      "conversation": [
+        {
+          "invocation_id": "e-6c14fe96-000e-47ae-9216-f7864dbee315",
+          "user_content": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "turn  on Lights in master bathroom",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "The lights in the master bathroom have been turned on.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-005e0cfa-bd24-494f-bb34-561e36162c96",
+                "args": {
+                  "device_id": "Lights",
+                  "location": "master bathroom",
+                  "status": "ON"
+                },
+                "name": "set_device_status"
+              }
+            ],
+            "tool_responses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1765570048.423683
+        }
+      ],
+      "session_input": {
+        "app_name": "home_automation_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1765570062.74559
+    },
+    {
+      "eval_id": "Test",
+      "conversation": [
+        {
+          "invocation_id": "e-6c14fe96-000e-47ae-9216-f7864dbee315",
+          "user_content": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "turn  on Lights in master bathroom",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "The lights in the master bathroom have been turned on.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-005e0cfa-bd24-494f-bb34-561e36162c96",
+                "args": {
+                  "device_id": "Lights",
+                  "location": "master bathroom",
+                  "status": "ON"
+                },
+                "name": "set_device_status"
+              }
+            ],
+            "tool_responses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1765570048.423683
+        },
+        {
+          "invocation_id": "e-d8739bdb-c5f1-4df4-abd1-dd6b14ab8e01",
+          "user_content": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "turn on Lights in master bathroom\n\n",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "The lights in the master bathroom are now on.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-3a1e0efa-0811-4737-8bab-0b497e769cf1",
+                "args": {
+                  "status": "ON",
+                  "location": "master bathroom",
+                  "device_id": "Lights"
+                },
+                "name": "set_device_status"
+              }
+            ],
+            "tool_responses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1765570284.573696
+        },
+        {
+          "invocation_id": "e-074a822c-8bd8-4b2e-9da4-87658b69b31d",
+          "user_content": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "turn on Lights in master bathroom\n\n",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": "user"
+          },
+          "final_response": {
+            "parts": [
+              {
+                "function_call": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "The lights in the master bathroom are on.",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null
+              }
+            ],
+            "role": null
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "id": "adk-4b3a3444-f9ea-4685-af9c-cde433642aed",
+                "args": {
+                  "location": "master bathroom",
+                  "status": "ON",
+                  "device_id": "Lights"
+                },
+                "name": "set_device_status"
+              }
+            ],
+            "tool_responses": [],
+            "intermediate_responses": []
+          },
+          "creation_timestamp": 1765570292.06792
+        }
+      ],
+      "session_input": {
+        "app_name": "home_automation_agent",
+        "user_id": "user",
+        "state": {}
+      },
+      "creation_timestamp": 1765570314.693185
+    }
+  ],
+  "creation_timestamp": 1765192507.850657
+}

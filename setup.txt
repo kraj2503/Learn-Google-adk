@@ -1,0 +1,5 @@
+conda installed 
+conda activate gemini-adk
+
+
+ adk web --port 8000;    

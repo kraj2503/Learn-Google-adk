@@ -1,0 +1,4 @@
+agent2/.env
+agent2/research-agent/.env
+home_automation_agent/.env
+**/__pycache__

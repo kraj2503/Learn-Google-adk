@@ -414,7 +414,7 @@ root_agent = LlmAgent(
     tools=[
         get_fee_for_payment_method,
         get_exchange_rate,
-        AgentTool(agent=calculation_agent),  # Using another agent as a tool!
+        AgentTool(agent=calculation_agent),  # Using ano ther agent as a tool!
     ],
 )
 
